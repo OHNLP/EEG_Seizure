@@ -16,8 +16,8 @@ python3 src/train_gpt.py \
      --learning-rate=1e-4 \
      --use-encoder='True' \
      --embedding-dim=1024  \
-     --pretrained-model="results/models/upstream/32clen2_embed1024/model_final/model.safetensors" \
-     --dst-data-path="data/bciiv2a_eeg_npz" \
+     --pretrained-model="/data/jjiang10/Download/checkpoint-50000/model.safetensors" \
+     --dst-data-path="/data/jjiang10/Data/EEG/tuh_eeg/tuh_eeg_4_foundation_model" \
      --dst-data-channel-count=21 \
      --ft-only-encoder='True' \
      --num-workers=24
