@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "remove-test-directory",
+      "type": "shell",
+      "command": "rm -rf ${workspaceFolder}/data/pt_tuh_eeg_test",
+      "problemMatcher": []
+    },
+    {
+      "label": "remove-prod-crown-directory",
+      "type": "shell",
+      "command": "rm -rf ${workspaceFolder}/data/crown/pt_sessions",
+      "problemMatcher": []
+    },
+    {
+      "label": "remove-dev-crown-directory",
+      "type": "shell",
+      "command": "rm -rf ${workspaceFolder}/data/crown/pt_sessions_fast",
+      "problemMatcher": []
+    }
+  ]
+}

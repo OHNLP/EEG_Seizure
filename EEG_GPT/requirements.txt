@@ -1,0 +1,12 @@
+accelerate==0.27
+einops==0.7
+h5py==3.10
+pandas==2.2
+scikit-learn==1.4
+scipy==1.12
+torch==2.0.1
+torchinfo==1.8
+transformers==4.38
+mne==1.7
+wandb==0.16
+safetensors==0.4.3
