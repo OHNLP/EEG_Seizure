@@ -525,7 +525,7 @@ def get_args() -> argparse.ArgumentParser:
     parser.add_argument(
         '--dst-data-path',
         metavar='DIR',
-        default="data/bciiv2a_eeg_npz/",
+        default="/data/jjiang10/Data/EEG/tuh_eeg/tuh_eeg_4_foundation_model",
         type=str,
         help='path to downstream task data directory '
              '(default: data/bciiv2a_eeg_npz)'
@@ -1068,7 +1068,7 @@ def get_args() -> argparse.ArgumentParser:
 
     parser.add_argument('--dst-data-channel-count',
                         metavar='INT',
-                        default=22, 
+                        default=21, 
                         type=int,
                         help='number of channels in the EEG data for downstream task')
     
